@@ -1,11 +1,26 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Tasty Licks"
+languageCode = "es-Es"
+#title = "MoonCafe-1201"
 
 [params]
-  description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
+  #description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
+  logo="/img/index.png"
+  vidmp4 = "/videos/CoffeeCup.mp4"
+  
+[[menu.main]]
+    name = "Nosotros"
+    url  = "/nosotros"
+    weight = 1
 
 [[menu.main]]
-    name = "About"
-    url  = "/about"
-    weight = 1
+    name = "Menu"
+    url  = "/menu"
+    weight = 2
+[[menu.main]]
+    name = "Pedidos"
+    url  = "/pedidos"
+    weight = 2
+[[menu.main]]
+    name = "Contacto"
+    url  = "/contacto"
+    weight = 3

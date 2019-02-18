@@ -3,6 +3,11 @@
 * {
   box-sizing: border-box;
 }
+.footer{
+  text-align: end;
+  margin-top: calc(20% + 80px);
+  line-height: 3.5px;
+}
 
 html, body {
   margin: 0;
@@ -26,7 +31,7 @@ body {
 }
 
 a {
-  color: #268bd2;
+  color: #f6b242;
   text-decoration: none;
 }
 
@@ -154,7 +159,15 @@ blockquote {
     padding-left: 1.25rem;
   }
 }
-
+#logo{
+  max-width: 100%;
+  min-height: 325px;
+  background: url("/img/index.png");
+  background-repeat: no-repeat;
+  background-image: -webkit-radial-gradient();
+  background-size: cover;
+  background-position-y: top
+}
 img {
   display: block;
   margin: 0 0 1rem;
@@ -655,7 +668,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #202020;
+  background-color: #0f1400;
   a {
     color: #fff;
     transition: color .2s ease;
