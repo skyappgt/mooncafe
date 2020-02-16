@@ -3,15 +3,18 @@
   <div class="container sidebar-sticky">
     <div id="logo" src="{{ .Site.Params.logo }}" alt=""></div>
     <div class="sidebar-about">
-      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <ul class="sidebar-nav">
+        <li><a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a></li>
+      </ul>
       
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
+      <li><a href="/">Nosotros</a> </li>
       {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        <!-- <li><a href="{{.URL}}"> {{ .Name }} </a></li> -->
       {{end}}
+      <li><h1>En Construcción</h1> </li>
     </ul>
   </div>
 </div>

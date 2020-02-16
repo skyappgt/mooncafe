@@ -1,9 +1,11 @@
 baseurl = "/"
 languageCode = "es-Es"
-#title = "MoonCafe-1201"
+title = "Moon Cafe-1201"
+
 
 [params]
-  #description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
+  description = "Moon cafe San Marcos, Guatemala"
+  itsky = "https://facebook.com/itskyapps"
   logo="/img/index.png"
   vidmp4 = "/videos/CoffeeCup.mp4"
   
